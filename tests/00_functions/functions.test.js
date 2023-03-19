@@ -52,7 +52,7 @@ describe.only('addUnknown', () => {
   });
 });
 
-describe('evenOrOdd', () => {
+describe.only('evenOrOdd', () => {
   it('is a function', () => {
     expect(typeof evenOrOdd).to.equal('function');
   });

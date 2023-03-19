@@ -41,9 +41,18 @@ console.log(addUnknown(3,4,5))
 console.log(addUnknown(2,2))
 
 
-function evenOrOdd() {
-
+function evenOrOdd(number) {
+  
+    if (number % 2 ==0){
+        return "even"
+    }
+    else {
+        return "odd"
+    }
 }
+console.log(evenOrOdd(10))
+console.log(evenOrOdd(3))
+
 
 function operator() {
 
