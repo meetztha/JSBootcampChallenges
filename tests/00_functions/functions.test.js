@@ -73,7 +73,7 @@ describe.only('evenOrOdd', () => {
   });
 });
 
-describe('operator', () => {
+describe.only('operator', () => {
   it('is a function', () => {
     expect(typeof operator).to.equal('function');
   });

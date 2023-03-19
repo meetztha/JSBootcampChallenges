@@ -54,9 +54,31 @@ console.log(evenOrOdd(10))
 console.log(evenOrOdd(3))
 
 
-function operator() {
-
+function operator(p,q,r) {
+  
+    if (p +q ===r) {
+        return "plus"
+    }
+    else if (p - q === r){
+        return "minus"
+    }
+    else if (p * q === r){
+        return "multiply"
+    }
+    else if ( p / q ===r){
+        return "divide"
+    }
+    else {
+      return null
+    }
 }
+console.log(operator(5,5,10))
+console.log(operator(8,2,6))
+console.log(operator(7,5,35))
+console.log(operator(24,8,3))
+console.log(operator(124,2345,1))
+
+
 
 module.exports = {
   max, addUnknown, evenOrOdd, operator,
