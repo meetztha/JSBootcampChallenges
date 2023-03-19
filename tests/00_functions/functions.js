@@ -22,9 +22,24 @@ console.log(max(20,40,10))
 
 
 
-function addUnknown() {
+function addUnknown(num1,num2,num3,num4,num5) {
 
-}
+  
+    if (!num3 && !num4 && !num5){
+        return num1+num2}
+        else if(!num4 && !num5) {
+            return num1+num2+num3}
+            else {
+                return num1+num2+num3+num4+num5
+            }
+            
+                    }
+                        
+               
+console.log(addUnknown(10,10,10,10,100))
+console.log(addUnknown(3,4,5))
+console.log(addUnknown(2,2))
+
 
 function evenOrOdd() {
 
