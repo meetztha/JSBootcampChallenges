@@ -18,7 +18,7 @@ function max(a,b,c) {
 }
 console.log(max(4,5,6))
 console.log(max(10,8,6))
-console.log(max(20,40,10 ))
+console.log(max(20,40,10))
 
 
 
