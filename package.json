@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive tests/**/*.js --timeout 60000 --exit",
+    "test": "mocha --recursive tests/**/*test.js --timeout 60000 --exit",
     "test:functions": "mocha --recursive tests/00_functions/**/*.js --timeout 60000 --exit",
     "test:strings": "mocha --recursive tests/01_strings/**/*.js --timeout 60000 --exit",
     "test:looping": "mocha --recursive tests/02_looping/**/*.js --timeout 60000 --exit",
